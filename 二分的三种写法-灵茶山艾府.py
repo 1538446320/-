@@ -1,3 +1,4 @@
+# 在单调不降序列中查找第一个>=target的下标 不存在则返回数组长度
 def lower_bound(nums: List[int],target: int) ->int:
     left = 0
     right = len(nums) - 1  #闭区间 [left,right]
